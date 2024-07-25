@@ -18,16 +18,39 @@
     <title>TraVelliA</title>
   </head>
   <body>
-    <nav>
-      <div class="navlogo"><img src="./Images/logo.png" alt=""></div>
-      <ul class="navlink">
-        <li class="link">Home</li>
-        <li class="link">SERVICES</li>
-        <li class="link">BLOG</li>
-        <li class="link">GALLERY</li>
-        <li class="link">Contacts</li>
-      </ul>
+    <nav class="navbar navbar-expand-lg bg-body-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img id="logo" src="./images/logo.png" alt="no image">
+       </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navsec navbar-nav ms-auto mb-2 mb-lg-0 d-flex align-items-lg-center">
+            <li class=" nav-item">
+              <a class="nav-link me-5"  href="#">HOME</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link me-5" href="#">SERVICES</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link me-5" href="#">BLOG</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link me-5" href="#">GALLERY</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link me-5" href="#">CONTACT</a>
+            </li>
+          </ul>
+          
+        </div>
+      </div>
     </nav>
+    <!-- <nav class="navbar navbar-expand-lg bg-light">
+
+    </nav> -->
     <header>
       <video class="video" src="./Videos/3135811-hd_1920_1080_24fps.mp4" autoplay muted loop>
 
@@ -54,7 +77,7 @@
         <div class="col-md-4 p-4 ps-5 pe-1">
           <div class="cardser card shadow pb-5 p-3" style="width: 100%">
             <div class="d-flex justify-content-center align-itmes-center">
-              <img src="./Images/FLight.avif" alt="..." width="150px" height="250px">
+              <img src="./Images/FLight.avif" alt="..." width="100%" height="250px">
             </div>
             <div class="cardtitle card-body mt-4">
               <h4 class="text-center">FLIGHT BOOKING</h4>
@@ -66,10 +89,10 @@
         <div class="col-md-4 p-4 ps-5 pe-1">
           <div class="cardser card shadow pb-5 p-3" style="width: 100%">
             <div class="d-flex justify-content-center align-itmes-center">
-              <img src="./Images/hotel.jpg" alt="..." width="150px" height="250px">
+              <img src="./Images/hotel.jpg" alt="..." width="100%" height="250px">
             </div>
             <div class="cardtitle card-body mt-4">
-              <h4 class="text-center">HOTEL RESERVATION</h4>
+              <h4 class="text-center">HOTEL ROOMS</h4>
               <p class="card-text mt-4">We can assist in booking accommodations ranging from hotels to resorts, based on your preferences for location, star rating and budget.</p>
              
             </div>
@@ -78,10 +101,10 @@
         <div class="col-md-4 p-4 ps-5 pe-1">
           <div class="cardser card shadow pb-5 p-3" style="width: 100%">
             <div class="d-flex justify-content-center align-itmes-center">
-              <img src="./Images/Transportation.jpg" alt="..." width="150px" height="250px">
+              <img src="./Images/Transportation.jpg" alt="..." width="100%" height="250px">
             </div>
             <div class="cardtitle card-body mt-4">
-              <h4 class="text-center">TRAVEL MANAGEMENT</h4>
+              <h4 class="text-center">TRANSPORTATION</h4>
               <p class="card-text mt-4">Involves coordinating and optimizing securef travel arrangements, food and accommodation, guide, and ensuring traveler safety.</p>
              
             </div>
@@ -90,7 +113,7 @@
         <div class="col-md-4 p-4 ps-5 pe-1">
           <div class="cardser card shadow pb-5 p-3" style="width: 100%">
             <div class="d-flex justify-content-center align-itmes-center">
-              <img src="./Images/Tour packages.jpg" alt="..." width="150px" height="250px">
+              <img src="./Images/Tour packages.jpg" alt="..." width="100%" height="250px">
             </div>
             <div class="cardtitle card-body mt-4">
               <h4 class="text-center">TOUR PACKAGES</h4>
@@ -105,7 +128,7 @@
         <div class="col-md-4 p-4 ps-5 pe-1">
           <div class="cardser card shadow pb-5 p-3" style="width: 100%">
             <div class="d-flex justify-content-center align-itmes-center">
-              <img src="./Images/cruise.webp" alt="..." width="150px" height="250px">
+              <img src="./Images/cruise.webp" alt="..." width="100%" height="250px">
             </div>
             <div class="cardtitle card-body mt-4">
               <h4 class="text-center">CRUISE BOOKING</h4>
@@ -117,7 +140,7 @@
         <div class="col-md-4 p-4 ps-5 pe-1">
           <div class="cardser card shadow pb-5 p-3" style="width: 100%">
             <div class="d-flex justify-content-center align-itmes-center">
-              <img src="./Images/adventure.jpg" alt="..." width="150px" height="250px">
+              <img src="./Images/adventure.jpg" alt="..." width="100%" height="250px">
             </div>
             <div class="cardtitle card-body mt-4">
               <h4 class="text-center">ADVENTURE</h4>
@@ -133,7 +156,7 @@
     </div>
     <div class="col-md-1"></div>
   </div>
-</video>
+
 </div>
 
     <!-- start your journey -->
@@ -152,7 +175,7 @@
               <div class="col-md-4 p-4 ps-5 pe-1">
                 <div class="cards card shadow pb-5 p-3" style="width: 100%">
                   <div class="d-flex justify-content-center align-itmes-center">
-                    <img src="./Images/Cinque-Terre-Italy.jpg" alt="..." width="150px" height="250px">
+                    <img src="./Images/Cinque-Terre-Italy.jpg" alt="..." width="100%" height="250px">
                   </div>
                   <div class="cardtitle card-body mt-4">
                     <h4 class="text-center">ITALY</h4>
@@ -164,7 +187,7 @@
               <div class="col-md-4 p-4 ps-5 pe-1">
                 <div class="cards card shadow pb-5 p-3" style="width: 100%">
                   <div class="d-flex justify-content-center align-itmes-center">
-                    <img src="./Images/FRANCE.jpg" alt="..." width="150px" height="250px">
+                    <img src="./Images/FRANCE.jpg" alt="..." width="100%" height="250px">
                   </div>
                   <div class="cardtitle card-body mt-4">
                     <h4 class="text-center">FRANCE</h4>
@@ -176,7 +199,7 @@
               <div class="col-md-4 p-4 ps-5 pe-1">
                 <div class="cards card shadow pb-5 p-3" style="width: 100%">
                   <div class="d-flex justify-content-center align-itmes-center">
-                    <img src="./Images/SPAIN.jpg" alt="..." width="150px" height="250px">
+                    <img src="./Images/SPAIN.jpg" alt="..." width="100%" height="250px">
                   </div>
                   <div class="cardtitle card-body mt-4">
                     <h4 class="text-center">SPAIN</h4>
@@ -188,7 +211,7 @@
               <div class="col-md-4 p-4 ps-5 pe-1">
                 <div class="cards card shadow pb-5 p-3" style="width: 100%">
                   <div class="d-flex justify-content-center align-itmes-center">
-                    <img src="./Images/GERMANY.jpg" alt="..." width="150px" height="250px">
+                    <img src="./Images/GERMANY.jpg" alt="..." width="100%" height="250px">
                   </div>
                   <div class="cardtitle card-body mt-4">
                     <h4 class="text-center">GERMANY</h4>
@@ -200,7 +223,7 @@
               <div class="col-md-4 p-4 ps-5 pe-1">
                 <div class="cards card shadow pb-5 p-3" style="width: 100%">
                   <div class="d-flex justify-content-center align-itmes-center">
-                    <img src="./Images/INDIAN.jpg" alt="..." width="150px" height="250px">
+                    <img src="./Images/INDIAN.jpg" alt="..." width="100%" height="250px">
                   </div>
                   <div class="cardtitle card-body mt-4">
                     <h4 class="text-center">INDIA</h4>
@@ -212,10 +235,10 @@
               <div class="col-md-4 p-4 ps-5 pe-1">
                 <div class="cards card shadow pb-5 p-3" style="width: 100%">
                   <div class="d-flex justify-content-center align-itmes-center">
-                    <img src="./Images/Austrillia.webp" alt="..." width="150px" height="250px">
+                    <img src="./Images/Austrillia.webp" alt="..." width="100%" height="250px">
                   </div>
                   <div class="cardtitle card-body mt-4">
-                    <h4 class="text-center">AUSTRILIA</h4>
+                    <h4 class="text-center">AUSTRALIA</h4>
                     <p class="card-text mt-4 text-align-justify">Australia is known for its unique wildlife, stunning natural landscapes, and vibrant cities such as Sydney and Melbourne.Its beaches, outdoor adventures, and cultural experiences make it a top travel destination.</p>
                    
                   </div>
